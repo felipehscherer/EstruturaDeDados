@@ -4,6 +4,9 @@ package br.com.felipehs;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println(PlanoCartesiano.calcularDistancia(2,2,2,2));
+
+        PlanoCartesiano p1 = new PlanoCartesiano(2, 8);
+        PlanoCartesiano p2 = new PlanoCartesiano(2, 8);
+        System.out.println(PlanoCartesiano.calcularDistancia(p1, p2));
     }
 }

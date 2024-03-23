@@ -1,51 +1,32 @@
 package br.com.felipehs;
 
 public class PlanoCartesiano {
-    private double xA;
-    private double xB;
-    private double yA;
-    private double yB;
+    private double x;
+    private double y;
 
-    public static double calcularDistancia(double xA, double xB, double yA, double yB){
-        return Math.sqrt(Math.pow((xB - xA), 2) + Math.pow((yB - yA), 2));
+    public static double calcularDistancia(PlanoCartesiano p1, PlanoCartesiano p2){
+        return Math.sqrt(Math.pow((p1.getY() - p1.getX()), 2) + Math.pow((p2.getY() - p2.getX()), 2));
     }
 
-    public PlanoCartesiano(double xA, double xB, double yA, double yB) {
-        this.xA = xA;
-        this.xB = xB;
-        this.yA = yA;
-        this.yB = yB;
+    public PlanoCartesiano(double x, double y) {
+        this.x = x;
+        this.y = y;
+
     }
 
-    public double getxA() {
-        return xA;
+    public double getX() {
+        return x;
     }
 
-    public void setxA(double xA) {
-        this.xA = xA;
+    public void setX(double x) {
+        this.x = x;
     }
 
-    public double getxB() {
-        return xB;
+    public double getY() {
+        return y;
     }
 
-    public void setxB(double xB) {
-        this.xB = xB;
-    }
-
-    public double getyA() {
-        return yA;
-    }
-
-    public void setyA(double yA) {
-        this.yA = yA;
-    }
-
-    public double getyB() {
-        return yB;
-    }
-
-    public void setyB(double yB) {
-        this.yB = yB;
+    public void setY(double y) {
+        this.y = y;
     }
 }
