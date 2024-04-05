@@ -1,4 +1,4 @@
-package br.com.felipehs;
+package br.com.felipehs.atv1planocartesiano;
 
 public class PlanoCartesiano {
     private double x;

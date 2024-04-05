@@ -1,6 +1,5 @@
-package org.example;
+package br.com.felipehs.atv1tadalunos;
 
-import java.util.Objects;
 
 public class Aluno {
     private String nome;
