@@ -1,4 +1,4 @@
-package br.com.felipehs.atv1tadalunos;
+package br.com.felipehs;
 
 public class Vetor {
     private final Aluno[] alunos;
