@@ -14,7 +14,6 @@ public class Noh {
         return n;
     }
 
-
     public Noh getProx() {
         return prox;
     }
@@ -23,4 +22,4 @@ public class Noh {
         return o;
     }
 }
-}
+
