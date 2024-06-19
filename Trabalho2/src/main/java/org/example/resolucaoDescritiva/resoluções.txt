@@ -1,0 +1,20 @@
+9) A estabilidade quando falamos em algoritmo de ordenação se refere a manter a ordem
+ dos elementos iguais depois de sua ordenação. Utilizando o Bubble Sort as passagens
+ ficam da seguinte maneira:
+
+ Primeira Passagem:
+ Compara 7 e 1: [7,1,1,3,2] e troca ficando [1,7,1,3,2]
+ Compara 7 e 1: [1,7,1,3,2] e troca ficando [1,1,7,3,2]
+
+Agora ele vai comparar o 7 com o 3
+[1,1,7,3,2] e troca ficando [1,1,3,7,2]
+E agora ele compara o 7 com o 2 ficando [1,1,3,2,7]
+
+Este processo continua até que se encontre o vetor em ordem [1,1,2,3,7]
+
+11) A solução mais rapida é a busca binaria, por isso seria minha escolha.
+
+12) A estrategia mais cabivel seria: Utilizar um contador que armazena as locações.
+Outra estratégia é implementar na LDE um método que verifica se algum atributo identificador do cliente ou do veículo
+está armazenado na lista de locações ativas.
+Caso esse método retornar true, a exclusão do cliente/veículo deve ser impossibilitada.
